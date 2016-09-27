@@ -1,4 +1,4 @@
-module AlgebraLib.CompiletimeStaticOrVariableValueUi;
+module linoperterixed.AlgebraLib.CompiletimeStaticOrVariableValueUi;
 
 package struct CompiletimeStaticOrVariableValueUi
 {

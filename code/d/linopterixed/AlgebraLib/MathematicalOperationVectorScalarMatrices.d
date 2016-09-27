@@ -1,8 +1,8 @@
-module AlgebraLib.MathematicalOperationVectorScalarMatrices;
+module linoperterixed.AlgebraLib.MathematicalOperationVectorScalarMatrices;
 
-import AlgebraLib.CompiletimeVector2Ui;
-import AlgebraLib.CompiletimeMatrixDescriptor;
-import AlgebraLib.MathematicalOperation;
+import linoperterixed.AlgebraLib.CompiletimeVector2Ui;
+import linoperterixed.AlgebraLib.CompiletimeMatrixDescriptor;
+import linoperterixed.AlgebraLib.MathematicalOperation;
 
 final package class MathematicalOperationVectorScalarMatrices : MathematicalOperation
 {

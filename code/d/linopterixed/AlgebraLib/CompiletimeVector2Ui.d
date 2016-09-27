@@ -1,6 +1,6 @@
-module AlgebraLib.CompiletimeVector2Ui;
+module linoperterixed.AlgebraLib.CompiletimeVector2Ui;
 
-import AlgebraLib.CompiletimeStaticOrVariableValueUi;
+import linoperterixed.AlgebraLib.CompiletimeStaticOrVariableValueUi;
 
 /** \brief compile time vector where the fields can either be constant or a variable
  *

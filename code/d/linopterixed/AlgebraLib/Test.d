@@ -1,6 +1,6 @@
-import AlgebraLib.InstructionTranslator;
-import AlgebraLib.CompiletimeMatrixDescriptor;
-import AlgebraLib.ResultDescriptor;
+import linoperterixed.AlgebraLib.InstructionTranslator;
+import linoperterixed.AlgebraLib.CompiletimeMatrixDescriptor;
+import linoperterixed.AlgebraLib.ResultDescriptor;
 
 import std.stdio;
 

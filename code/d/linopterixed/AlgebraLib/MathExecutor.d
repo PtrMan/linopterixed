@@ -1,8 +1,8 @@
-module AlgebraLib.MathExecutor;
+module linoperterixed.AlgebraLib.MathExecutor;
 
-import AlgebraLib.MathematicalOperation;
-import AlgebraLib.OpenForLoopOperation;
-import AlgebraLib.CloseForLoopOperation;
+import linoperterixed.AlgebraLib.MathematicalOperation;
+import linoperterixed.AlgebraLib.OpenForLoopOperation;
+import linoperterixed.AlgebraLib.CloseForLoopOperation;
 
 /**
  * used only at compile time!

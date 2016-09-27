@@ -1,18 +1,18 @@
-module AlgebraLib.InstructionTranslator;
+module linoperterixed.AlgebraLib.InstructionTranslator;
 
 // TODO< remove >
 import std.conv;
 
-import AlgebraLib.MathExecutor;
-import AlgebraLib.CompiletimeMatrixDescriptor;
-import AlgebraLib.ResultDescriptor;
-import AlgebraLib.CompiletimeVector2Ui;
-import AlgebraLib.CompiletimeStaticOrVariableValueUi;
-import AlgebraLib.MathematicalOperationVectorScalarMatrices;
+import linoperterixed.AlgebraLib.MathExecutor;
+import linoperterixed.AlgebraLib.CompiletimeMatrixDescriptor;
+import linoperterixed.AlgebraLib.ResultDescriptor;
+import linoperterixed.AlgebraLib.CompiletimeVector2Ui;
+import linoperterixed.AlgebraLib.CompiletimeStaticOrVariableValueUi;
+import linoperterixed.AlgebraLib.MathematicalOperationVectorScalarMatrices;
 
-import AlgebraLib.OpenForLoopOperation;
-import AlgebraLib.CloseForLoopOperation;
-import AlgebraLib.MathematicalOperation;
+import linoperterixed.AlgebraLib.OpenForLoopOperation;
+import linoperterixed.AlgebraLib.CloseForLoopOperation;
+import linoperterixed.AlgebraLib.MathematicalOperation;
 
 // debugging
 import std.stdio;

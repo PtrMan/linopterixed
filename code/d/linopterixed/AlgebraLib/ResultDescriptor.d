@@ -1,4 +1,4 @@
-module AlgebraLib.ResultDescriptor;
+module linoperterixed.AlgebraLib.ResultDescriptor;
 
 /** \brief contains the result of a request
  *

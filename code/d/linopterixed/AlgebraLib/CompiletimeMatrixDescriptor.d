@@ -1,4 +1,4 @@
-module AlgebraLib.CompiletimeMatrixDescriptor;
+module linoperterixed.AlgebraLib.CompiletimeMatrixDescriptor;
 
 /**
  * Holds informations about the matrix (alignment, location, size, ...) at compiletime

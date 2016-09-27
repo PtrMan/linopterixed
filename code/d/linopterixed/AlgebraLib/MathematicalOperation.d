@@ -1,4 +1,4 @@
-module AlgebraLib.MathematicalOperation;
+module linoperterixed.AlgebraLib.MathematicalOperation;
 
 /**
  * Base class for all Math-Operations which are collected/transformed/executed by the MathExecutor

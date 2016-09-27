@@ -1,6 +1,6 @@
-module AlgebraLib.OpenForLoopOperation;
+module linoperterixed.AlgebraLib.OpenForLoopOperation;
 
-import AlgebraLib.MathematicalOperation;
+import linoperterixed.AlgebraLib.MathematicalOperation;
 
 final package class OpenForLoopOperation : MathematicalOperation
 {
