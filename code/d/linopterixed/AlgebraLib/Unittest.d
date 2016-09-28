@@ -4,9 +4,9 @@
 
 module Unittest;
 
-import linoperterixed.AlgebraLib.InstructionTranslator;
-import linoperterixed.AlgebraLib.CompiletimeMatrixDescriptor;
-import linoperterixed.AlgebraLib.ResultDescriptor;
+import linopterixed.AlgebraLib.InstructionTranslator;
+import linopterixed.AlgebraLib.CompiletimeMatrixDescriptor;
+import linopterixed.AlgebraLib.ResultDescriptor;
 
 import std.math;
 import std.algorithm;
@@ -70,7 +70,7 @@ string generateDSourceForPerformanceTarget(InstructionTranslator.EnumPerformance
 // unittest Matrix multiplication, Extreme speed
 unittest
 {
-	import AlgebraLib.Utilities;
+	import linopterixed.AlgebraLib.Utilities;
 
 	
 	// dynamic arrays to avoid compiletime optimization

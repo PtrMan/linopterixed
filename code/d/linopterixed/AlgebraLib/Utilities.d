@@ -1,4 +1,4 @@
-module linoperterixed.AlgebraLib.Utilities;
+module linopterixed.AlgebraLib.Utilities;
 
 import std.stdio;
 

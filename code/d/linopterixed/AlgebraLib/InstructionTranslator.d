@@ -7,12 +7,12 @@ import linoperterixed.AlgebraLib.MathExecutor;
 import linoperterixed.AlgebraLib.CompiletimeMatrixDescriptor;
 import linoperterixed.AlgebraLib.ResultDescriptor;
 import linoperterixed.AlgebraLib.CompiletimeVector2Ui;
-import linoperterixed.AlgebraLib.CompiletimeStaticOrVariableValueUi;
-import linoperterixed.AlgebraLib.MathematicalOperationVectorScalarMatrices;
+import linopterixed.AlgebraLib.CompiletimeStaticOrVariableValueUi;
+import linopterixed.AlgebraLib.MathematicalOperationVectorScalarMatrices;
 
-import linoperterixed.AlgebraLib.OpenForLoopOperation;
-import linoperterixed.AlgebraLib.CloseForLoopOperation;
-import linoperterixed.AlgebraLib.MathematicalOperation;
+import linopterixed.AlgebraLib.OpenForLoopOperation;
+import linopterixed.AlgebraLib.CloseForLoopOperation;
+import linopterixed.AlgebraLib.MathematicalOperation;
 
 // debugging
 import std.stdio;

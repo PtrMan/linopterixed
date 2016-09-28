@@ -1,4 +1,4 @@
-module linoperterixed.linear.Vector;
+module linopterixed.linear.Vector;
 
 import core.simd;
 

@@ -1,6 +1,6 @@
-module linoperterixed.linear.Matrix;
+module linopterixed.linear.Matrix;
 
-import linoperterixed.linear.Vector;
+import linopterixed.linear.Vector;
 
 // TODO< for more than two dimensions! >
 template Matrix(DataType, uint width, uint height) if (width >= 1 && height >= 1) {

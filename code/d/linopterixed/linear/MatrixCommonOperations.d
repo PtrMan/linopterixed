@@ -1,11 +1,11 @@
-module linopertixed.linear.MatrixCommonOperations;
+module linopterixed.linear.MatrixCommonOperations;
 
-import linopertixed.linear.Matrix;
-import linopertixed.linear.algorithms.GaussElimination : standardGaussElimination;
+import linopterixed.linear.Matrix;
+import linopterixed.linear.algorithms.GaussElimination : standardGaussElimination;
 
-import linopertixed.AlgebraLib.InstructionTranslator;
-import linopertixed.AlgebraLib.CompiletimeMatrixDescriptor;
-import linopertixed.AlgebraLib.ResultDescriptor;
+import linopterixed.AlgebraLib.InstructionTranslator;
+import linopterixed.AlgebraLib.CompiletimeMatrixDescriptor;
+import linopterixed.AlgebraLib.ResultDescriptor;
 
 Matrix!(NumericType, size, size) inverse(NumericType, uint size)(Matrix!(NumericType, size, size) input) {
 	Matrix!(NumericType, size*2, size) internalMatrix = new Matrix!(NumericType, size*2, size)();

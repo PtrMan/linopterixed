@@ -1,6 +1,6 @@
-module linoperterixed.linear.algorithms.GaussElimination;
+module linopterixed.linear.algorithms.GaussElimination;
 
-import linoperterixed.linear.Matrix : Matrix;
+import linopterixed.linear.Matrix : Matrix;
 
 // modifies the table
 void gaussElimination(Type, uint width, uint height, StepType, bool withGaussJordan = true)(Matrix!(Type, width, height) matrix) {
