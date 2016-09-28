@@ -130,7 +130,7 @@ public class InstructionTranslator {
 
 		resultDString = "{";
 
-		resultDString ~= "import AlgebraLib.Utilities;\n\n";
+		resultDString ~= "import linopterixed.AlgebraLib.Utilities;\n\n";
 
 		foreach( iterationOperation; executor.operations ) {
 			final switch(iterationOperation.type) {
@@ -197,7 +197,7 @@ public class InstructionTranslator {
 
 		// TODO< string of datatype >
 		
-		result = getStringForMatrixAccess(operation.descriptorResult, operation.resultIndex) ~ " = " ~ "AlgebraLib.Utilities.vectorScalar(";
+		result = getStringForMatrixAccess(operation.descriptorResult, operation.resultIndex) ~ " = " ~ "linopterixed.AlgebraLib.Utilities.vectorScalar(";
 
 		// input A
 
