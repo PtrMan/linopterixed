@@ -308,6 +308,10 @@ SpatialVector!(3, Type) componentDivision(Type)(SpatialVector!(3, Type) vector, 
 	return new SpatialVector!(3, Type)(vector.x / divisorVector.x, vector.y / divisorVector.y, vector.z / divisorVector.z);
 }
 
+SpatialVectorStruct!(2, Type) componentMultiplication(Type)(SpatialVectorStruct!(2, Type) vector, SpatialVectorStruct!(2, Type) other) {
+    return SpatialVectorStruct!(2, Type).make(vector.x * other.x, vector.y * other.y);
+}
+
 
 // method for better readability
 SpatialVector!(Size, Type, true) scale(uint Size, Type)(SpatialVector!(Size, Type, true) vector, Type magnitude) {
