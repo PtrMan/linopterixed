@@ -289,9 +289,9 @@ unittest {
     assert( dot(vecA, vecB) == 170.0f);
 }
 
-SpatialVectorStruct!(3, Type, Scalable) crossProduct(Type, Scalable)(SpatialVectorStruct!(3, Type, Scalable) a, SpatialVectorStruct!(3, Type, Scalable) b) {
-	Type x = a.data[1] * b.data[2] - a.data[2] * b.data[1];
-	Type y = a.data[2] * b.data[0] - a.data[0] * b.data[2];
-	Type z = a.data[0] * b.data[1] - a.data[1] * b.data[0];
+SpatialVectorStruct!(3, Type, Scalable) crossProduct(Type, bool Scalable)(const SpatialVectorStruct!(3, Type, Scalable) a, const SpatialVectorStruct!(3, Type, Scalable) b) {
+	Type x = a[1] * b[2] - a[2] * b[1];
+	Type y = a[2] * b[0] - a[0] * b[2];
+	Type z = a[0] * b[1] - a[1] * b[0];
 	return SpatialVectorStruct!(3, Type, Scalable).make(x, y, z);
 }
