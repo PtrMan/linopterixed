@@ -4,8 +4,8 @@ import linopterixed.linear.Matrix;
 import linopterixed.linear.algorithms.GaussElimination : standardGaussElimination;
 
 import linopterixed.AlgebraLib.InstructionTranslator;
-import linopterixed.AlgebraLib.CompiletimeMatrixDescriptor;
-import linopterixed.AlgebraLib.ResultDescriptor;
+import linopterixed.AlgebraLib.CompiletimeMatrixDescriptor : CompiletimeMatrixDescriptor;
+import linopterixed.AlgebraLib.ResultDescriptor : ResultDescriptor;
 
 Matrix!(NumericType, size, size) inverse(NumericType, uint size)(Matrix!(NumericType, size, size) input) {
 	Matrix!(NumericType, size*2, size) internalMatrix = new Matrix!(NumericType, size*2, size)();
